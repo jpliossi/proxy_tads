@@ -5,7 +5,6 @@ queue = deque()
 
 def enqueue(item):
     if len(queue) >= QUEUE_MAX_SIZE:
-        # estratégia de degradação (shed load)
         return False
     queue.append(item)
     return True
