@@ -1,4 +1,5 @@
 # proxy_tads
+Alunos: José Paulo Liossi, Vinicius Carneiro de Aguiar
 
 Para rodar no windowns:
 
