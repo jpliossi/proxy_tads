@@ -1,0 +1,42 @@
+# Python
+# ========================
+
+# Diretórios de ambiente virtual
+venv/
+.venv/
+env/
+
+# Arquivos de bytecode compilado
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Arquivos de log e banco de dados
+*.log
+*.sqlite
+db.sqlite3
+
+# Testes/Debug
+.pytest_cache/
+.coverage
+
+# Dependências (se estiver usando pacotes de desenvolvimento)
+# Geralmente, você lista no requirements.txt, mas se houver algum local específico:
+# build/
+# dist/
+
+# IDEs (se estiver usando Visual Studio Code ou JetBrains)
+# ========================
+.vscode/
+.idea/
+
+# macOS
+# ========================
+.DS_Store
+
+# Arquivos de configuração local (se existirem, como senhas ou chaves)
+# Se você tiver um arquivo de configuração específico para o seu ambiente
+# que não deve ir para o Git. Exemplo:
+# local_settings.py
+# .env
